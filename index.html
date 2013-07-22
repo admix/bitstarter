@@ -119,6 +119,111 @@
     </div>
   <!-- We use row-fluid inside containers to achieve a resizable layout. -->  
     <div class="container">
+      <div class="row-fluid heading">
+        <h1>Product</h1>
+      </div>
+    </div>
+    <div class="row-fluid subheading">
+      <span class="span12">
+        <!-- Special typography from Bootstrap for lead paragraph --> 
+        <p class="lead">One sentence description</p>
+      </div>
+    </div>
+    <div class="row-fluid pitch">
+      <div class="span5 offset1 video">
+        <img class="img-palaroid" src="http://placehold.it/480x300">
+      </div>
+      
+      <!-- We define a new 'actions' div to contain statistics, order, and share buttons. -->
+      <div class="span5 actions">
+        <div class="span8 offset2">
+          <div class="statistics">
+            <div class="span4">
+              <!-- linediv-l and linediv-r give dividing lines that look different in horizontal and vertical layouts, illustrating media queries. -->
+              <div class="span4">
+              <h3>1000</h3> <p>backers</p>
+              </div>
+            </div>
+            <div class="span4">
+              <div class="linedev-c">
+                <h3>$6000</h3> <p>of $10,000</p>
+              </div>
+            </div>
+            <div class="span4">
+              <div class="linediv-r">
+              <h3>10</h3> <p>days left</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="span10 offset1">
+          <!-- Bootstrap progress bar -->
+          <div class="thermometer progress active">
+            <div class="bar bar-success" style="width: 60%;"></div>
+            <div class="bar bar-warning" style="width: 40%;"></div>
+          </div>
+        </div>
+        <div class="span6 offset3 order">
+          <!-- Standard Bootstrap button. -->
+          <button class="btn btn-success btn-large">Preorder</button>
+        </div>
+        <div class="span8 offset2 social">
+          <!-- Social buttons are not included in default Bootstrap. -->
+          <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+          <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Beyond this part the marketing copy begins. -->
+    <div class="row-fluid section1">
+      <div class="span5 offset1 asset">
+        <img class="img-polaroid" src="http://placehold.it/480x300">
+      </div>
+      <div class="span5 copy">
+        <p>
+          After the presentation I was a bit disappointed with the new iOS 7, I thought that design is poor and looks like Androids or Windows Phones, so that Apple lost their creativity and feeling of design. Fortunately, I was wrong!!!
+
+          After I installed it to my iPhone I got the feeling of it, it is just cool as it should be. Lots of new and easy features, flat design and awesome animation that is everywhere. It is just amazing to look how the device works. Of course, I need some time to get used to some new features (new gestures, multitasking, colors etc), but the feeling of being somewhere in the future is here, Apple didn’t lose it and I hope they won’t.
+        </p>
+      </div>
+    </div>
+
+    <div class="row-fluid section2">
+      <div class="span5 offset1 copy copy-right">
+        <p>
+          After the presentation I was a bit disappointed with the new iOS 7, I thought that design is poor and looks like Androids or Windows Phones, so that Apple lost their creativity and feeling of design. Fortunately, I was wrong!!!
+
+          After I installed it to my iPhone I got the feeling of it, it is just cool as it should be. Lots of new and easy features, flat design and awesome animation that is everywhere. It is just amazing to look how the device works. Of course, I need some time to get used to some new features (new gestures, multitasking, colors etc), but the feeling of being somewhere in the future is here, Apple didn’t lose it and I hope they won’t.
+        </p>
+      </div>
+      <div class="span5 asset">
+        <img class="img-polaroid" src="http://placehold.it/480x300">
+      </div>
+    </div>
+
+    <!-- For the FAQ, JS will be useful (using accordion) -->
+    <div class="row-fluid faq">
+        <div class="span10 offset">
+          <h3>FAQ</h3>
+          <div class="accordion" id="accordion2">
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                What does FAQ stand for?
+                </a>
+              </div>
+              <div id="collapseOne" class="accordion-body collapse">
+                <div class="accordion-inner">
+                Freqeuntly Asked Questions.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                What's a Frequently Asked Questions?
+                </a>                     
 	<div class="span2 logo">
 	  Logo
 	</div>
